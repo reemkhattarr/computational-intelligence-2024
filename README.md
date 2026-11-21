@@ -52,3 +52,14 @@ be used for the next iteration. Over time, the population evolves towards indivi
 better fit the data.
 After the specified number of iterations is done, the best individual is selected as the final
 formula.
+
+## How to run
+
+Install [uv](https://docs.astral.sh/uv/) and [just](https://just.systems), then from this folder:
+
+```bash
+just            # list everything you can run
+just project    # open the symbolic-regression notebook
+just score      # evaluate the final formulas in s321463.py on data/
+just lab 2      # open a lab notebook (1 set cover, 2 TSP, 3 n-puzzle)
+```
