@@ -1,6 +1,18 @@
-# CI2024_project-work
-Project work - Computational Intelligence
+# Computational Intelligence 2024
 
+Coursework for the Computational Intelligence course at Politecnico di Torino (2024): the final project on symbolic regression and four labs on search and optimisation.
+
+| Folder | Topic |
+|---|---|
+| [`src/`](src), [`s321463.py`](s321463.py), [`data/`](data) | **Project:** symbolic regression with genetic programming (below) |
+| [`labs/lab1-set-cover`](labs/lab1-set-cover) | Set cover: minimum-cost subfamily covering every element |
+| [`labs/lab2-tsp`](labs/lab2-tsp) | Travelling salesman on real city datasets |
+| [`labs/lab3-n-puzzle`](labs/lab3-n-puzzle) | n²−1 puzzle solved with path search |
+| [`labs/lab0-intro`](labs/lab0-intro) | Course warm-up |
+
+The labs were originally separate repositories (`CI2024_lab0`–`CI2024_lab3`); this repository brings them together with the project, whose full commit history is kept.
+
+## Project: symbolic regression
 Project Overview
 The goal of this project is to use symbolic regression to find mathematical formulas that predict target variables based on input features, focusing on both accuracy and simplicity. The approach uses Genetic Programming to evolve mathematical expressions represented as tree-based structures.
 
